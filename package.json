@@ -1,26 +1,8 @@
 {
   "name": "DOG10",
   "version": "10.0.2",
-  "description": "",
-  "author": "TM",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
-    "dist": "electron-builder",
-    "deploy": "electron-builder build --win --publish always"
-  },
-  "build": {
-    "productName": "DOG10",
-    "appId": "ch.electron.DOG10",
-    "publish": null,
-    "win": {
-      "asar": true,
-      "icon": "public/icons/dog.ico",
-      "legalTrademarks": "(c) 2021 DOG10 TMS",
-      "publisherName": "DOG10",
-      "target": [
-        "nsis"
-      ]
-    }
   },
   "keywords": [
     "Electron",
